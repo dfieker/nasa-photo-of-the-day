@@ -5,8 +5,18 @@ function App() {
   const [data] = useState([]);
   console.log(data);
   useEffect(() => {
-    
-  })
+    axios
+      .get(
+        "https://api.nasa.gov/planetary/apod"
+      )
+      .then(response => {
+        console.log(response.data);
+
+      })
+      .catch(error => {
+        console.log("Data not returned", error);
+      });
+  }, []);
   return (
     <div className="App">
       <p>
