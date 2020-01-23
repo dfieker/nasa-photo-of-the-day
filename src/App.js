@@ -1,13 +1,15 @@
 import React from "react";
 import "./App.css";
+import APOD from "./Components/NASA/APOD";
+import BackgroundPic from "./Components/MyStuff/BackgroundPic";
 
 function App() {
   return (
     <div className="App">
-      <p>
-        Read through the instructions in the README.md file to build your NASA
-        app! Have fun 🚀!
-      </p>
+      <APOD />
+      <BackgroundPic />
+      {/* <BibleVerse />
+      <MyThoughts />  */}
     </div>
   );
 }
