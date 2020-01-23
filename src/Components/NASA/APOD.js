@@ -1,5 +1,7 @@
 import React, {useState, useEffect} from "react";
 import axios from "axios";
+import SpacePic from "./SpacePic";
+import BibleVerse from "../MyStuff/BibleVerse";
 // import PictureData from "./PictureData";
 
 function APOD() {
@@ -19,20 +21,14 @@ function APOD() {
       });
   }, []);
   return (
-    <div className="picture-info">
-            {/* <p>
-                Date: {data.date}
-            </p>
-            <h2 className="picture-title">
-                {data.title}
-            </h2>
-            <img className="image"
-            src={data.url}
-            alt="Picture of the Day."
+      <div>
+          {/* <BibleVerse /> */}
+          <SpacePic 
+                date={data.date}
+                title={data.title}
+                image={data.url}
+                explanation={data.explanation}
             />
-            <p>
-                {data.explanation}
-            </p> */}
         </div>
   );
 }

@@ -6,7 +6,7 @@
     "axios": "^0.19.2",
     "react": "^16.8.6",
     "react-dom": "^16.8.6",
-    "react-scripts": "3.0.1"
+    "react-scripts": "^3.3.0"
   },
   "scripts": {
     "start": "react-scripts start",
@@ -35,7 +35,6 @@
   },
   "devDependencies": {
     "ts-loader": "^6.2.1",
-    "webpack": "^4.41.5",
     "webpack-cli": "^3.3.10"
   }
 }
