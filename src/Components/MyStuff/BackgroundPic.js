@@ -1,13 +1,16 @@
 import React from "react";
 import logo from "./img/stars.jpg";
+import BibleVerse from "./BibleVerse";
 
-console.log(logo);
+
 
 function BackgroundPic() {
     return (
         <div className="container">
-            <img src={logo} alt="Night sky full of stars." width="1500px"/>
-
+            <img src={logo} alt="Night sky full of stars." width="1650px" />
+            <div className="verse"><BibleVerse />
+            </div>
+        
 
         </div>
     )

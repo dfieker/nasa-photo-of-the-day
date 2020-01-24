@@ -3,9 +3,14 @@
 }
 
 .App-logo {
-  animation: App-logo-spin infinite 20s linear;
   height: 40vmin;
   pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
 }
 
 .App-header {
@@ -30,19 +35,4 @@
   to {
     transform: rotate(360deg);
   }
-}
-
-.bible-verse {
-  width: 80%;
-  font-size: 2rem;
-  position: absolute;
-  text-align: center;
-  color: white;
-  top: 25%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-}
-
-.background {
-  background: yellow;
 }

@@ -2,14 +2,16 @@ import React from "react";
 import "./App.css";
 import APOD from "./Components/NASA/APOD";
 import BackgroundPic from "./Components/MyStuff/BackgroundPic";
+// import SpacePic from "./Components/NASA/SpacePic";
+
 
 function App() {
   return (
     <div className="App">
-      <APOD />
       <BackgroundPic />
-      {/* <BibleVerse />
-      <MyThoughts />  */}
+      <APOD />
+      {/* <SpacePic /> */}
+      {/* <MyThoughts />  */}
     </div>
   );
 }
