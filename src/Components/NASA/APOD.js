@@ -1,7 +1,7 @@
 import React, {useState, useEffect} from "react";
 import axios from "axios";
 import SpacePic from "./SpacePic";
-import BibleVerse from "../MyStuff/BibleVerse";
+// import BibleVerse from "../MyStuff/BibleVerse";
 // import PictureData from "./PictureData";
 
 function APOD() {
